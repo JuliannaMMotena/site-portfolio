@@ -3,6 +3,7 @@
   <head>
     <title>Julianna Mouta Motena Bello</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="root-conteiner">
@@ -11,11 +12,25 @@
           <div class="barra-navegação">
             <h2 class="titulo-navegação">Julianna Mouta Motena Bello</h2>
             <div>
-              <a class="links-navegação">Habilidades</a>
-              <a class="links-navegação">Portfólio</a>
-              <a class="links-navegação">Experiências</a>
+              <a
+                onClick="onClickScrollTo('section-abilities')"
+                class="links-navegação"
+                >Habilidades</a
+              >
+              <a
+                onClick="onClickScrollTo('section-portfolio')"
+                class="links-navegação"
+                >Portfólio</a
+              >
+              <a
+                class="links-navegação"
+                onClick="onClickScrollTo('section-experiences')"
+                >Experiências</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onClick="onClickScrollTo('section-contact')">
+              CONTATO
+            </button>
           </div>
           <div class="hero-info">
             <div>
@@ -24,7 +39,9 @@
                 Sou Julianna M Motena Bello
               </h1>
               <p class="hero-info-subtitle">Desenvolvedora Front-End</p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onClick="onClickScrollTo('section-contact')">
+                ENTRAR EM CONTATO
+              </button>
               <div class="hero-info-icons-conteiner">
                 <a>
                   <img
@@ -51,7 +68,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Habilidades que</h2>
           <h2 class="verde">domino.</h2>
           <div class="ability-cards-conteiner">
@@ -104,7 +121,7 @@
             </div>
           </div>
         </section>
-        <section class="section-portfolio">
+        <section class="section-portfolio" id="section-portfolio">
           <h2>Portfólio</h2>
           <h2 class="verde">de projetos.</h2>
           <div class="section-portfolio-grid">
@@ -185,7 +202,7 @@
             </div>
           </div>
         </section>
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
           <h2>Experiências</h2>
           <h2 class="verde">Profissionais.</h2>
           <div class="section-experiences-card">
@@ -211,7 +228,7 @@
             </div>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="verde">te ajudar?</h2>
           <p>Estou à disposição para ajudar seu projeto ou sua empresa.</p>
