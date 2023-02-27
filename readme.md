@@ -8,6 +8,10 @@ information.
 
 <img src="https://github.com/JuliannaMMotena/site-portfolio/blob/main/Imagens/preview.png" />
 
+## Live link:
+
+https://juliannammotena.github.io/site-portfolio/
+
 ## Main concepts applied
 
 - Flexbox
