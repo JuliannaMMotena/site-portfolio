@@ -8,6 +8,15 @@
     font-size: 68px;
   }
 
+  a {
+    font-size: 28px;
+    color: #1e1e1e;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
   h5 {
     font-size: 36px;
   }
@@ -74,6 +83,7 @@
 
   .hero-info-icons-conteiner {
     margin-top: 40px;
+    width: 55%;
   }
 
   .hero-info {
@@ -86,6 +96,10 @@
 
   .hero-info-image {
     width: 390px;
+  }
+
+  .section-abilities {
+    padding-top: 50px;
   }
 
   .ability-cards-conteiner {
@@ -102,6 +116,12 @@
     align-items: center;
     flex-direction: column;
     padding-top: 16px;
+  }
+
+  .section-portfolio {
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
   }
 
   .section-portfolio-grid {
@@ -130,12 +150,33 @@
     height: auto;
   }
 
+  .section-experiences {
+    padding-top: 150px;
+  }
+
   .section-experiences-card {
     width: 90vw;
   }
 
+  .section-experiences-card-title {
+    font-size: 24px;
+  }
+
+  .section-experiences-card-subtitle {
+    font-size: 18px;
+  }
+
+  .section-experiences-card-text {
+    font-size: 16px;
+  }
+
+  .section-contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .footer-content {
-    width: 100%;
+    width: 94vw;
     justify-content: center;
   }
 }
