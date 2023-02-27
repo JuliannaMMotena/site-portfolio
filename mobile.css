@@ -4,8 +4,8 @@
   }
 
   button {
-    height: 64px;
-    font-size: 20px;
+    height: 80px;
+    font-size: 24px;
   }
 
   .content-conteiner {
@@ -27,8 +27,19 @@
   }
 
   .section-hero {
-    height: auto;
-    padding-bottom: 48px;
+    padding-bottom: 12px;
+  }
+
+  .hero-info-title {
+    font-size: 56px;
+    margin-top: 12px;
+  }
+
+  .hero-info-subtitle {
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 70%;
+    margin-bottom: 40px;
   }
 
   .hero-info-text-conteiner {
@@ -42,10 +53,13 @@
   }
 
   .hero-info-icons-img {
-    width: 36px;
-    height: 36px;
+    width: 56px;
+    height: 56px;
     margin-left: 132px;
-    cursor: pointer;
+  }
+
+  .hero-info-icons-conteiner {
+    margin-top: 40px;
   }
 
   .hero-info {
@@ -53,10 +67,11 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    margin-top: 156px;
   }
 
   .hero-info-image {
-    width: 30vw;
+    width: 390px;
   }
 
   .ability-cards-conteiner {
