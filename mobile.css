@@ -3,14 +3,28 @@
     text-align: center;
   }
 
+  h2 {
+    line-height: 64px;
+    font-size: 68px;
+  }
+
+  h5 {
+    font-size: 36px;
+  }
+
+  p.card {
+    font-size: 24px;
+    margin-top: 12px;
+  }
+
   button {
     height: 80px;
     font-size: 24px;
   }
 
   .content-conteiner {
-    width: 96vw;
-    max-width: 96vw;
+    width: 94vw;
+    max-width: 94vw;
   }
 
   .barra-navegação {
@@ -74,10 +88,26 @@
     width: 390px;
   }
 
+  .section-abilities {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
   .ability-cards-conteiner {
-    grid-template-columns: auto;
-    row-gap: 36px;
-    margin-top: 12px;
+    grid-template-columns: auto auto;
+    row-gap: 56px;
+    margin-top: 44px;
+    width: 100%;
+  }
+
+  .ability-card {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 16px;
   }
 
   .section-portfolio-grid {
