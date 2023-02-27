@@ -50,7 +50,7 @@
   }
 
   .section-hero {
-    padding-bottom: 12px;
+    padding-bottom: 0px;
   }
 
   .hero-info-title {
@@ -100,6 +100,7 @@
 
   .section-abilities {
     padding-top: 50px;
+    margin: 0px;
   }
 
   .ability-cards-conteiner {
@@ -165,8 +166,7 @@
   .section-experiences-card-subtitle {
     font-size: 18px;
   }
-
-  .section-experiences-card-text {
+  foo .section-experiences-card-text {
     font-size: 16px;
   }
 
