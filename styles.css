@@ -146,7 +146,7 @@ footer {
 
 .hero-info-image {
   height: 100%;
-  width: 542px;
+  width: 342px;
   border-radius: 40px;
   border-color: #219653;
   border-width: 4px;
@@ -214,8 +214,8 @@ footer {
 }
 
 .ability-card-icon-img {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
 }
 
 .ability-card-subtitle {
@@ -278,6 +278,7 @@ footer {
 .section-portfolio-card-icon-image {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 
 .section-experiences {

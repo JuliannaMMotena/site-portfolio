@@ -39,6 +39,7 @@
   .barra-navegação {
     width: 100%;
     margin-top: 24px;
+    margin-bottom: 30px;
   }
 
   .titulo-navegação {
@@ -50,7 +51,7 @@
   }
 
   .section-hero {
-    height: 90vh;
+    height: 75vh;
   }
 
   .hero-info-title {
@@ -95,7 +96,7 @@
   }
 
   .hero-info-image {
-    width: 390px;
+    width: 250px;
   }
 
   .section-abilities {
