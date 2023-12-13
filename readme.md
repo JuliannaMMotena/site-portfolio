@@ -6,7 +6,7 @@ information.
 
 # Preview
 
-<img src="https://github.com/JuliannaMMotena/site-portfolio/blob/main/Imagens/preview.png" />
+<img src="https://github.com/JuliannaMMotena/site-portfolio/blob/main/Imagens/preview2.png" />
 
 ## Live link:
 
