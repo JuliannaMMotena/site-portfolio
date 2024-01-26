@@ -22,7 +22,7 @@
   }
 
   p.card {
-    font-size: 24px;
+    font-size: 26px;
     margin-top: 12px;
   }
 
@@ -51,7 +51,7 @@
   }
 
   .section-hero {
-    height: 75vh;
+    height: 72vh;
   }
 
   .hero-info-title {
@@ -105,14 +105,17 @@
   }
 
   .ability-cards-conteiner {
+    display: flex;
+    justify-content: center;
     grid-template-columns: auto auto;
-    row-gap: 32px;
+    row-gap: 16px;
     margin-top: 44px;
     width: 100%;
+    column-gap: 100px;
   }
 
   .ability-card {
-    width: 300px;
+    width: 37vw;
     height: auto;
     display: flex;
     align-items: center;
@@ -131,6 +134,7 @@
     justify-content: space-between;
     row-gap: 36px;
     margin-top: 40px;
+    column-gap: 40px;
   }
 
   .section-portfolio-card {
@@ -138,7 +142,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 46vw;
+    width: 100%;
     height: auto;
     padding: 24px 0px;
   }
@@ -158,6 +162,7 @@
 
   .section-experiences-card {
     width: 90vw;
+    margin-top: 40px;
   }
 
   .section-experiences-card-title {
@@ -165,15 +170,23 @@
   }
 
   .section-experiences-card-subtitle {
-    font-size: 18px;
+    font-size: 20px;
   }
-  foo .section-experiences-card-text {
+  .section-experiences-card-text {
     font-size: 16px;
   }
 
   .section-contact {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .help {
+    font-size: 28px;
+  }
+
+  li {
+    font-size: 22px;
   }
 
   .footer-content {
