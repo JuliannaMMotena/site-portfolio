@@ -135,12 +135,13 @@ footer {
 .hero-info-title {
   font-size: 48px;
   font-weight: bold;
+  margin: 0px;
 }
 
 .hero-info-subtitle {
   font-size: 20px;
   line-height: 28px;
-  max-width: 62%;
+  max-width: 100%;
   margin-top: 16px;
 }
 
